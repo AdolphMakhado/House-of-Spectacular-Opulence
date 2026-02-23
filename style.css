@@ -1,0 +1,28 @@
+
+body { margin:0; background:#F5F0E6; font-family:'Montserrat',sans-serif; }
+nav { display:flex; justify-content:center; gap:40px; padding:20px; background:white; border-bottom:1px solid #ddd; }
+nav a { text-decoration:none; color:black; font-weight:500; transition:0.3s; }
+nav a:hover { color:#C9A227; }
+
+.hero { text-align:center; padding:80px 20px; }
+h1 { font-family:'Playfair Display',serif; color:#C9A227; }
+
+.btn-gold {
+background:#C9A227;
+color:black;
+padding:12px 24px;
+border:none;
+cursor:pointer;
+transition:0.3s;
+}
+.btn-gold:hover {
+background:black;
+color:#C9A227;
+}
+
+.products { display:flex; gap:20px; justify-content:center; padding:40px; flex-wrap:wrap; }
+.card { background:white; padding:20px; width:260px; text-align:center; border:1px solid #C9A227; }
+
+.cart-section { max-width:600px; margin:40px auto; background:white; padding:30px; border:1px solid #C9A227; }
+
+input { width:100%; padding:10px; margin:10px 0; }
