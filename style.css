@@ -1,0 +1,65 @@
+
+body { margin:0; background:#F5F0E6; font-family:'Montserrat',sans-serif; }
+
+.navbar {
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 40px;
+background:white;
+border-bottom:1px solid #ddd;
+}
+
+.logo { font-weight:600; text-decoration:none; color:black; }
+
+.nav-links a {
+margin-left:20px;
+text-decoration:none;
+color:black;
+font-weight:500;
+position:relative;
+}
+
+.cart-link { position:relative; }
+
+.cart-badge {
+position:absolute;
+top:-8px;
+right:-15px;
+background:#C9A227;
+color:black;
+border-radius:50%;
+padding:4px 8px;
+font-size:12px;
+font-weight:600;
+}
+
+.hero { text-align:center; padding:100px 20px; }
+
+.btn-gold {
+background:#C9A227;
+color:black;
+padding:12px 24px;
+border:none;
+cursor:pointer;
+transition:0.3s;
+}
+
+.btn-gold:hover {
+background:black;
+color:#C9A227;
+}
+
+.products { display:flex; gap:20px; justify-content:center; padding:40px; flex-wrap:wrap; }
+
+.card { background:white; padding:20px; width:260px; text-align:center; border:1px solid #C9A227; }
+
+.cart-section { max-width:600px; margin:40px auto; background:white; padding:30px; border:1px solid #C9A227; }
+
+.qty-btn { padding:4px 10px; margin:0 5px; }
+
+.remove-btn { background:red; color:white; border:none; padding:5px 10px; cursor:pointer; }
+
+.success-box { margin-top:20px; font-weight:600; color:green; }
+
+input { width:100%; padding:10px; margin:10px 0; }

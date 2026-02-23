@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+<a href="index.html" class="logo">House of Spectacular Opulence</a>
+<div class="nav-links">
+<a href="shop.html">Shop</a>
+<a href="cart.html" class="cart-link">
+Cart
+<span id="cart-count" class="cart-badge">0</span>
+</a>
+</div>
+</nav>
+
+<section class="products">
+
+<div class="card">
+<h3>Linen Spritz - French Vanilla</h3>
+<p>R250</p>
+<button onclick="addToCart('Linen Spritz - French Vanilla',250)" class="btn-gold">Add to Cart</button>
+</div>
+
+<div class="card">
+<h3>Candle - Oud & Velvet Rose</h3>
+<p>R320</p>
+<button onclick="addToCart('Candle - Oud & Velvet Rose',320)" class="btn-gold">Add to Cart</button>
+</div>
+
+<div class="card">
+<h3>Luxury Diffuser - Bali Affair</h3>
+<p>R450</p>
+<button onclick="addToCart('Luxury Diffuser - Bali Affair',450)" class="btn-gold">Add to Cart</button>
+</div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
